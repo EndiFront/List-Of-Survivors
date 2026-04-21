@@ -1,0 +1,9 @@
+@import "./assets/reset.css";
+body{
+  --color-dark-blue: #101c31;
+  --color-gold: #c5a059;
+  --color-background: #080a10;
+  --color-text: #e0e0e0;
+  font-family: 'Cinzel', 'Times New Roman', serif;
+  background-color: var(--color-background);
+}
