@@ -13,6 +13,12 @@ const routes = [
     name: 'Masha',
     // Путь исправлен согласно вашей структуре: src/components/Items/Me.vue
     component: () => import('../components/Items/Masha.vue')
+  },
+  {
+    path: '/Stepa',
+    name: 'Stepa',
+    // Путь исправлен согласно вашей структуре: src/components/Items/Me.vue
+    component: () => import('../components/Items/Stepa.vue')
   }
 ]
 

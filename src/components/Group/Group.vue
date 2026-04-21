@@ -13,8 +13,9 @@
           link="/Masha"
         />
         <Item 
-          img="/NN.jpg"
-          name="Никита Никитин"
+          img="/Gallery/Stepa/ava.jpg"
+          name="Степан Пинкман"
+          link="/Stepa"
         />
         <Item 
           img="/NN.jpg"
