@@ -8,7 +8,7 @@ import Group from './Group/Group.vue';
   <main>
     <section class="beschreibung">
     <div class="container">
-      <img src="/public/fon.jpg" alt="fon">
+      <img src="/fon.jpg" alt="fon">
       <div class="text">
         <h1>Добро пожаловать в список выживших ИСП-23</h1>
         <p>Здесь можно увидеть всех выживших ИСП-23, которые смогли выжить во время сессий. Список обновляется посеместрово, поэтому не всегда можно увидеть всех выживших. Приятного просмотра!</p>

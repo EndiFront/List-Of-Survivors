@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-// Импортируем Group.vue как главную страницу, так как там лежат ваши карточки
 import Home from '../components/Home.vue'
 
 const routes = [

@@ -50,7 +50,7 @@ const plugins = [lgZoom, lgThumbnail];
       <div class="about-dossier">
         <div class="section-header">
           <span class="ornament"></span>
-          <h2>О мне</h2>
+          <h2>Об мне</h2>
           <span class="ornament"></span>
         </div>
         <div class="dossier-card">

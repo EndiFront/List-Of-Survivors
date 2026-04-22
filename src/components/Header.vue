@@ -2,7 +2,7 @@
   <header id="header">
     <div class="container">
       <a href="../App.vue">
-        <img src="../../public/logo.svg" alt="logo" />
+        <img src="/logo.svg" alt="logo" />
       </a>
     </div>
   </header>

@@ -10,7 +10,7 @@
   <div id="item">
     <img :src="img" alt="avatar" />
     <h2>{{ name }}</h2>
-    <router-link :to="link" class="a">Узнать о мне</router-link>
+    <router-link :to="link" class="a">Узнать об мне</router-link>
   </div>
 </template>
 

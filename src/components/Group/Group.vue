@@ -19,7 +19,7 @@
         />
         <Item 
           img="/Gallery/Artem/ava.jpg"
-          name="Китаец"
+          name="Кинпинтяун"
           link="/Artem"
         />
         <Item 
