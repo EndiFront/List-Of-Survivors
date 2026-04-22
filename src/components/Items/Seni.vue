@@ -32,11 +32,11 @@ const plugins = [lgZoom, lgThumbnail];
           <a
             v-for="n in 6"
             :key="n"
-            :href="'/Gallery/Stepa/' + n + '.png'"
+            :href="'/Gallery/Seni/' + n + '.png'"
             class="gallery-item"
           >
             <div class="image-wrapper">
-              <img :src="'/Gallery/Stepa/' + n + '.png'" class="gallery-img" />
+              <img :src="'/Gallery/Seni/' + n + '.png'" class="gallery-img" />
               <div class="vignette"></div>
               <div class="img-overlay">ПРИБЛИЗИТЬ</div>
             </div>

@@ -18,12 +18,14 @@
           link="/Stepa"
         />
         <Item 
-          img="/NN.jpg"
-          name="Никита Никитин"
+          img="/Gallery/Artem/ava.jpg"
+          name="Китаец"
+          link="/Artem"
         />
         <Item 
-          img="/NN.jpg"
-          name="Никита Никитин"
+          img="/Gallery/Seni/ava.jpg"
+          name="Обезьяна"
+          link="/Seni"
         />
         <Item 
           img="/NN.jpg"
