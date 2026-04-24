@@ -26,7 +26,12 @@ const routes = [
     path: '/Seni',
     name: 'Seni',
     component: () => import('../components/Items/Seni.vue')
-  }
+  },
+  {
+    path: '/Roma',
+    name: 'Roma',
+    component: () => import('../components/Items/Roma.vue')
+  },
 ]
 
 const router = createRouter({

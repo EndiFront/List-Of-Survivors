@@ -28,8 +28,9 @@
           link="/Seni"
         />
         <Item 
-          img="/NN.jpg"
-          name="Никита Никитин"
+          img="/Gallery/Roma/ava.jpg"
+          name="Мастер Рома"
+          link="/Roma"
         />
         <Item 
           img="/NN.jpg"
