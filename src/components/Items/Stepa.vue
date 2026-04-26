@@ -14,7 +14,7 @@ const plugins = [lgZoom, lgThumbnail];
 <template>
   <div class="survivor-profile">
     <div class="header-banner">
-      <router-link to="/" class="a"><= Вернуться в список</router-link>
+      <router-link to="/" class="a">← Вернуться в список</router-link>
     </div>
 
     <div class="main-content">
