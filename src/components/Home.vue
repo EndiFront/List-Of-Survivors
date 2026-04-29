@@ -1,61 +1,92 @@
 <script setup>
+import { onMounted } from 'vue';
 import Header from './Header.vue';
 import Group from './Group/Group.vue';
+
+onMounted(() => {
+  const bgImg = document.querySelector('.beschreibung img');
+  
+  window.addEventListener('scroll', () => {
+    const scrolled = window.scrollY;
+    const scaleValue = 1 + scrolled / 2000;
+    
+    if (bgImg) {
+      bgImg.style.transform = `scale(${scaleValue})`;
+    }
+  });
+});
 </script>
 
 <template>
   <Header />
+  
   <main>
     <section class="beschreibung">
-    <div class="container">
-      <img src="/fon.jpg" alt="fon">
+      <div class="img-wrapper">
+        <img src="/fon.jpg" alt="fon">
+      </div>
+      
       <div class="text">
         <h1>Добро пожаловать в список выживших ИСП-23</h1>
-        <p>Здесь можно увидеть всех выживших ИСП-23, которые смогли выжить во время сессий. Список обновляется посеместрово, поэтому не всегда можно увидеть всех выживших. Приятного просмотра!</p>
+        <p>
+          Здесь можно увидеть всех выживших ИСП-23, которые смогли выжить во время сессий. 
+          Список обновляется посеместрово. Приятного просмотра!
+        </p>
       </div>
-    </div>
     </section>
-    <Group />
+
+    <section id="group">
+      <Group />
+    </section>
   </main>
 </template>
 
-<style>
-.beschreibung{
+<style scoped>
+.beschreibung {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  img{
-    width: 100%;
-    height: calc(var(--index) * 30);
-    object-fit: cover;
-    object-position: center;
-    filter: brightness(30%)
-  }
-  .text{
-    position: absolute;
-    width: 60%;
-    color: #fff;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    h1{
-      font-size: calc(var(--index) * 2.43);
-      font-weight: 700;
-    }
-    p{
-      margin-top: calc(var(--index) * 0.7);
-      font-size: calc(var(--index) * 0.7);
-    }
-  }
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.img-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.beschreibung img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(30%);
+  will-change: transform;
+  transition: transform 0.1s ease-out;
+}
+
+.text {
+  color: #fff;
+  text-align: center;
+  width: 60%;
+}
+
+.text h1 {
+  font-size: calc(var(--index) * 2.43);
+  font-weight: 700;
+}
+
+.text p {
+  font-size: calc(var(--index) * 0.7);
 }
 
 @media (max-width: 645px) {
-  .beschreibung{
-    .text{
-      width: 90%;
-    }
-  }
+  .text { width: 90%; }
 }
 </style>
