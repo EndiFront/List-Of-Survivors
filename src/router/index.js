@@ -32,6 +32,11 @@ const routes = [
     name: 'Roma',
     component: () => import('../components/Items/Roma.vue')
   },
+  {
+    path: '/Vlad',
+    name: 'Vlad',
+    component: () => import('../components/Items/Vlad.vue')
+  },
 ]
 
 const router = createRouter({

@@ -33,8 +33,9 @@
           link="/Roma"
         />
         <Item 
-          img="/NN.jpg"
-          name="Никита Никитин"
+          img="/Gallery/Vlad/ava.png"
+          name="Таксист Владислав"
+          link="/Vlad"
         />
         <Item 
           img="/NN.jpg"
@@ -90,7 +91,7 @@
         />
         <Item 
           img="/NN.jpg"
-          name="Никита Никитин"
+          name="Аноним"
         />  
       </div>
     </div>

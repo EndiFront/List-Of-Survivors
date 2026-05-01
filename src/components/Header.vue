@@ -1,7 +1,7 @@
 <template>
   <header id="header">
     <div class="container">
-      <a href="../App.vue">
+      <a href="/">
         <img src="/logo.svg" alt="logo" />
       </a>
     </div>
