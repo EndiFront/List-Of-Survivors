@@ -19,12 +19,12 @@
         />
         <Item 
           img="/Gallery/Artem/ava.jpg"
-          name="Кинпинтяун"
+          name="Артём Кинпинтяун"
           link="/Artem"
         />
         <Item 
           img="/Gallery/Seni/ava.jpg"
-          name="Обезьяна"
+          name="Обезьяна Cеня"
           link="/Seni"
         />
         <Item 

@@ -19,7 +19,6 @@ onMounted(() => {
 
 <template>
   <Header />
-  
   <main>
     <section class="beschreibung">
       <div class="img-wrapper">
@@ -29,7 +28,7 @@ onMounted(() => {
       <div class="text">
         <h1>Добро пожаловать в список выживших ИСП-23</h1>
         <p>
-          Здесь можно увидеть всех выживших ИСП-23, которые смогли выжить во время сессий. 
+          Здесь можно увидеть всех выживших ИСП-23, которые смогли выжить во время сессий. <br>
           Список обновляется посеместрово. Приятного просмотра!
         </p>
       </div>
@@ -83,7 +82,7 @@ onMounted(() => {
 }
 
 .text p {
-  font-size: calc(var(--index) * 0.7);
+  font-size: calc(var(--index) * 0.83);
 }
 
 @media (max-width: 645px) {
