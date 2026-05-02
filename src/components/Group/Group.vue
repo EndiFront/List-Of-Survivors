@@ -38,20 +38,20 @@
           link="/Vlad"
         />
         <Item 
-          img="/NN.jpg"
-          name="Никита Никитин"
+          img="/Gallery/Me/ava.png"
+          name="Егор Оверрайд"
         />
         <Item 
-          img="/NN.jpg"
-          name="Никита Никитин"
+          img="/Gallery/Ivan/ava.jpg"
+          name="Иван PlayBoy"
         />
         <Item 
-          img="/NN.jpg"
-          name="Никита Никитин"
+          img="/Gallery/Yarik/ava.jpg"
+          name="Машинист Ярослав"
         />
         <Item 
-          img="/NN.jpg"
-          name="Никита Никитин"
+          img="/Gallery/Zavar/ava.jpg"
+          name="Захар Силин"
         />  
         <Item 
           img="/NN.jpg"
