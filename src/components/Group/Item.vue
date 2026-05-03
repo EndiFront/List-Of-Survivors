@@ -36,7 +36,8 @@
       font-size: 25px;
       text-align: center;
       font-weight: 600;
-      margin-top: 30px;
+      /* margin-top: 30px; */
+      margin-top: calc(var(--index) * 1);
       color: #C5A059;
     }
     .a{

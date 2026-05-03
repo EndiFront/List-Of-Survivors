@@ -40,6 +40,7 @@
         <Item 
           img="/Gallery/Me/ava.png"
           name="Егор Оверрайд"
+          link="/Egor"
         />
         <Item 
           img="/Gallery/Ivan/ava.jpg"
@@ -52,29 +53,30 @@
         <Item 
           img="/Gallery/Zavar/ava.jpg"
           name="Захар Силин"
+          link="/Zavar"
         />  
         <Item 
-          img="/NN.jpg"
-          name="Никита Никитин"
+          img="/Gallery/Leva/ava.jpg"
+          name="Леха Эйнштейн"
         />
         <Item 
-          img="/NN.jpg"
-          name="Никита Никитин"
+          img="/Gallery/Dimon/ava.png"
+          name="Диджей Димон"
         />
         <Item 
-          img="/NN.jpg"
-          name="Никита Никитин"
+          img="/Gallery/Artem 2/ava.jpg"
+          name="Артём Рэпер"
         />
         <Item 
-          img="/NN.jpg"
-          name="Никита Никитин"
+          img="/Gallery/Antoni/ava.png"
+          name="Dota Антон"
         />
         <Item 
-          img="/NN.jpg"
-          name="Никита Никитин"
+          img="/Gallery/Andrey/ava.png"
+          name="Андрей Паркер"
         />  
         <Item 
-          img="/NN.jpg"
+          img="/Gallery/ilya/ava.png"
           name="Никита Никитин"
         />
         <Item 
@@ -90,7 +92,7 @@
           name="Никита Никитин"
         />
         <Item 
-          img="/NN.jpg"
+          img="/An.png"
           name="Аноним"
         />  
       </div>
