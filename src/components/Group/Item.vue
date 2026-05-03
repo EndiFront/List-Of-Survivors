@@ -36,12 +36,11 @@
       font-size: 25px;
       text-align: center;
       font-weight: 600;
-      /* margin-top: 30px; */
-      margin-top: calc(var(--index) * 1);
+      margin-top: 30px;
       color: #C5A059;
     }
     .a{
-      margin-top: 30px;
+      margin-top: calc(var(--index) * 1);
       padding: 10px 20px;
       background: #1A2B3C;
       border: 2px solid #E2D1A3;
