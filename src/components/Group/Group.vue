@@ -77,7 +77,7 @@
         />  
         <Item 
           img="/Gallery/ilya/ava.png"
-          name="Никита Никитин"
+          name="Школьник"
         />
         <Item 
           img="/NN.jpg"
@@ -88,8 +88,8 @@
           name="Никита Никитин"
         />
         <Item 
-          img="/NN.jpg"
-          name="Никита Никитин"
+          img="/Gallery/Yliuna/ava.png"
+          name="Гномик Ульяна"
         />
         <Item 
           img="/An.png"
