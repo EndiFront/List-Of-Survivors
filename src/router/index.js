@@ -47,6 +47,66 @@ const routes = [
     name: 'Zavar',
     component: () => import('../components/Items/Zavar.vue')
   },
+  {
+    path: '/Ivan',
+    name: 'Ivan',
+    component: () => import('../components/Items/Ivan.vue')
+  },
+  {
+    path: '/Yarik',
+    name: 'Yarik',
+    component: () => import('../components/Items/Yarik.vue')
+  },
+  {
+    path: '/Leva',
+    name: 'Leva',
+    component: () => import('../components/Items/Leva.vue')
+  },
+  {
+    path: '/Dimon',
+    name: 'Dimon',
+    component: () => import('../components/Items/Dimon.vue')
+  },
+  {
+    path: '/Artem-two',
+    name: 'Artem-two',
+    component: () => import('../components/Items/Artem-2.vue')
+  },
+  {
+    path: '/Antoni',
+    name: 'Antoni',
+    component: () => import('../components/Items/Antoni.vue')
+  },
+  {
+    path: '/Andrey',
+    name: 'Andrey',
+    component: () => import('../components/Items/Andrey.vue')
+  },
+  {
+    path: '/Schoolboy',
+    name: 'Schoolboy',
+    component: () => import('../components/Items/Schoolboy.vue')
+  },
+  {
+    path: '/Sasha',
+    name: 'Sasha',
+    component: () => import('../components/Items/Sasha.vue')
+  },
+  {
+    path: '/Vika',
+    name: 'Vika',
+    component: () => import('../components/Items/Vika.vue')
+  },
+  {
+    path: '/Yliuna',
+    name: 'Yliuna',
+    component: () => import('../components/Items/Yliuna.vue')
+  },
+  {
+    path: '/Anonymous',
+    name: 'Anonymous',
+    component: () => import('../components/Items/An.vue')
+  },
 ]
 
 const router = createRouter({

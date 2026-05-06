@@ -1,8 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from './router' // импорт вашего исправленного файла
+import router from './router'
 
 const app = createApp(App)
 
-app.use(router) // ЭТОТ ШАГ ОБЯЗАТЕЛЕН
+app.use(router)
 app.mount('#app')

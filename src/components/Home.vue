@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted } from 'vue';
 import Header from './Header.vue';
+import Footer from './Footer.vue';
 import Group from './Group/Group.vue';
 
 onMounted(() => {
@@ -38,6 +39,7 @@ onMounted(() => {
       <Group />
     </section>
   </main>
+  <Footer />
 </template>
 
 <style scoped>

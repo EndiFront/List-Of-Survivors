@@ -24,7 +24,7 @@
         />
         <Item 
           img="/Gallery/Seni/ava.jpg"
-          name="Обезьяна Cеня"
+          name="Бибизяна Cеня"
           link="/Seni"
         />
         <Item 
@@ -45,10 +45,12 @@
         <Item 
           img="/Gallery/Ivan/ava.jpg"
           name="Иван PlayBoy"
+          link="Ivan"
         />
         <Item 
           img="/Gallery/Yarik/ava.jpg"
           name="Машинист Ярослав"
+          link="Yarik"
         />
         <Item 
           img="/Gallery/Zavar/ava.jpg"
@@ -58,42 +60,52 @@
         <Item 
           img="/Gallery/Leva/ava.jpg"
           name="Леха Эйнштейн"
+          link="/Leva"
         />
         <Item 
           img="/Gallery/Dimon/ava.png"
           name="Диджей Димон"
+          link="/Dimon"
         />
         <Item 
           img="/Gallery/Artem 2/ava.jpg"
           name="Артём Рэпер"
+          link="/Artem-two"
         />
         <Item 
           img="/Gallery/Antoni/ava.png"
           name="Dota Антон"
+          link="/Antoni"
         />
-        <Item 
+        <Item
           img="/Gallery/Andrey/ava.png"
           name="Андрей Паркер"
+          link="/Andrey"
         />  
         <Item 
           img="/Gallery/ilya/ava.png"
           name="Школьник"
+          link="/Schoolboy"
         />
         <Item 
           img="/NN.jpg"
-          name="Никита Никитин"
+          name="Саша"
+          link="/Sasha"
         />
         <Item 
           img="/NN.jpg"
-          name="Никита Никитин"
+          name="Вика"
+          link="/Vika"
         />
         <Item 
           img="/Gallery/Yliuna/ava.png"
           name="Гномик Ульяна"
+          link="/Yliuna"
         />
         <Item 
           img="/An.png"
           name="Аноним"
+          link="/Anonymous"
         />  
       </div>
     </div>
