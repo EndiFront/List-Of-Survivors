@@ -88,13 +88,13 @@
           link="/Schoolboy"
         />
         <Item 
-          img="/NN.jpg"
-          name="Саша"
+          img="/Gallery/Sasha/ava.png"
+          name="Александра Фреза"
           link="/Sasha"
         />
         <Item 
           img="/NN.jpg"
-          name="Вика"
+          name="Вика Фэшн"
           link="/Vika"
         />
         <Item 
