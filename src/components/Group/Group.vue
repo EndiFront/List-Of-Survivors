@@ -54,7 +54,7 @@
         />
         <Item 
           img="/Gallery/Zavar/ava.jpg"
-          name="Захар Силин"
+          name="Захар Премудрый"
           link="/Zavar"
         />  
         <Item 
