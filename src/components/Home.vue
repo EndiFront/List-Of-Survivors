@@ -1,19 +1,15 @@
 <script setup>
-import { onMounted } from 'vue';
-import Header from './Header.vue';
-import Footer from './Footer.vue';
-import Group from './Group/Group.vue';
+import { onMounted } from "vue";
+import Header from "./Header.vue";
+import Footer from "./Footer.vue";
+import Group from "./Group/Group.vue";
 
 onMounted(() => {
-  const bgImg = document.querySelector('.beschreibung img');
-  
-  window.addEventListener('scroll', () => {
+  const bgImg = document.querySelector(".fon");
+  window.addEventListener("scroll", () => {
     const scrolled = window.scrollY;
     const scaleValue = 1 + scrolled / 2000;
-    
-    if (bgImg) {
-      bgImg.style.transform = `scale(${scaleValue})`;
-    }
+    bgImg.style.transform = `scale(${scaleValue})`;
   });
 });
 </script>
@@ -22,22 +18,23 @@ onMounted(() => {
   <Header />
   <main>
     <section class="beschreibung">
+      <!-- Фон -->
       <div class="img-wrapper">
-        <img src="/fon.jpg" alt="fon">
+        <img class="fon" src="/fon.jpg" alt="fon" />
       </div>
-      
+
+      <!-- Текст -->
       <div class="text">
         <h1>Добро пожаловать в список выживших ИСП-23</h1>
         <p>
-          Здесь можно увидеть всех выживших ИСП-23, которые смогли выжить во время сессий. <br>
+          Здесь можно увидеть всех выживших ИСП-23, которые смогли выжить во
+          время сессий. <br />
           Список обновляется посеместрово. Приятного просмотра!
         </p>
       </div>
     </section>
-
-    <section id="group">
-      <Group />
-    </section>
+    <!-- Группа -->
+    <Group />
   </main>
   <Footer />
 </template>
@@ -63,7 +60,7 @@ onMounted(() => {
   overflow: hidden;
 }
 
-.beschreibung img {
+.fon {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -78,16 +75,18 @@ onMounted(() => {
   width: 60%;
 }
 
-.text h1 {
+h1 {
   font-size: calc(var(--index) * 2.43);
   font-weight: 700;
 }
 
-.text p {
+p {
   font-size: calc(var(--index) * 0.83);
 }
 
 @media (max-width: 645px) {
-  .text { width: 90%; }
+  .text {
+    width: 90%;
+  }
 }
 </style>

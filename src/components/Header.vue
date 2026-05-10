@@ -10,7 +10,6 @@
 
 <style scoped>
 #header {
-  /* position: fixed; */
   width: 100%;
   z-index: 1000;
   background-color: var(--color-background);
