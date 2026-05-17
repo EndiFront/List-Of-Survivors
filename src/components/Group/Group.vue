@@ -79,7 +79,7 @@
         />
         <Item
           img="/Gallery/Andrey/ava.png"
-          name="Андрей Паркер"
+          name="Рыцарь Андре"
           link="/Andrey"
         />  
         <Item 
