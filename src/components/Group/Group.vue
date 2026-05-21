@@ -45,12 +45,12 @@
         <Item 
           img="/Gallery/Ivan/ava.jpg"
           name="Иван PlayBoy"
-          link="Ivan"
+          link="/Ivan"
         />
         <Item 
           img="/Gallery/Yarik/ava.jpg"
           name="Машинист Ярослав"
-          link="Yarik"
+          link="/Yarik"
         />
         <Item 
           img="/Gallery/Zavar/ava.jpg"
