@@ -19,7 +19,7 @@
         />
         <Item 
           img="/Gallery/Artem/ava.jpg"
-          name="Артём Кинпинтяун"
+          name="Артём Кимпинтяо"
           link="/Artem"
         />
         <Item 
@@ -74,12 +74,12 @@
         />
         <Item 
           img="/Gallery/Antoni/ava.png"
-          name="Dota Антон"
+          name="Антон Строитель"
           link="/Antoni"
         />
         <Item
           img="/Gallery/Andrey/ava.png"
-          name="Рыцарь Андре"
+          name="Кот Андре"
           link="/Andrey"
         />  
         <Item 
