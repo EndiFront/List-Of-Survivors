@@ -93,7 +93,7 @@
           link="/Sasha"
         />
         <Item 
-          img="/NN.jpg"
+          img="/Gallery/Vika/ava.jpg"
           name="Вика Фэшн"
           link="/Vika"
         />
